@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaroUniversity", "CaroUniversity\CaroUniversity.csproj", "{D527E771-2A87-4508-B7A8-7B486AA41E2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TronExpress", "..\Session02\TronExpress\TronExpress.csproj", "{33EAD729-6EA1-4B94-8F33-D21EB6079F41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D527E771-2A87-4508-B7A8-7B486AA41E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D527E771-2A87-4508-B7A8-7B486AA41E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D527E771-2A87-4508-B7A8-7B486AA41E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33EAD729-6EA1-4B94-8F33-D21EB6079F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33EAD729-6EA1-4B94-8F33-D21EB6079F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33EAD729-6EA1-4B94-8F33-D21EB6079F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33EAD729-6EA1-4B94-8F33-D21EB6079F41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
