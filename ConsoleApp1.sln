@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaroUniversity", "CaroUnive
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TronExpress", "..\Session02\TronExpress\TronExpress.csproj", "{33EAD729-6EA1-4B94-8F33-D21EB6079F41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetroitBank", "..\DetroitBank\DetroitBank.csproj", "{EE46B0B0-B377-4CB6-A3B9-6E41DAEA6F46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DetroitBank", "..\DetroitBank\DetroitBank.csproj", "{EE46B0B0-B377-4CB6-A3B9-6E41DAEA6F46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_01", "Lab_01\Lab_01.csproj", "{334C51D7-F527-40E1-8C77-12D451FFF594}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EE46B0B0-B377-4CB6-A3B9-6E41DAEA6F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE46B0B0-B377-4CB6-A3B9-6E41DAEA6F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE46B0B0-B377-4CB6-A3B9-6E41DAEA6F46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{334C51D7-F527-40E1-8C77-12D451FFF594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334C51D7-F527-40E1-8C77-12D451FFF594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334C51D7-F527-40E1-8C77-12D451FFF594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334C51D7-F527-40E1-8C77-12D451FFF594}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
