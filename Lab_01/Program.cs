@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 
 namespace Lab_01
 {
@@ -19,7 +19,7 @@ namespace Lab_01
 
             int valueVal = 5;
             Test(valueVal);
-            Console.WriteLine("The value of the variable is {0}", valueVal);
+            Console.WriteLine("The value of the variable is {0}",   valueVal);
             Console.ReadLine();
         }
 
@@ -31,3 +31,4 @@ namespace Lab_01
         }
     }
 }
+*/

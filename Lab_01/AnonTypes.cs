@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Lab_01
+/*namespace Lab_01
 {
     class AnonTypes
     {
@@ -16,4 +16,4 @@ namespace Lab_01
         }
 
     }
-}
+}*/

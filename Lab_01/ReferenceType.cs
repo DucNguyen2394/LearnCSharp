@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab_01
 {
-    class ReferenceType
+    /*class ReferenceType
     {
         public int valueVal;
     }
@@ -24,6 +24,6 @@ namespace Lab_01
             int temp = 5;
             refer.valueVal = temp * 2;
         }
-    }
+    }*/
 
 }
