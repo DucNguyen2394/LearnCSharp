@@ -8,6 +8,7 @@ namespace HomeWork01
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Nhap so vao day: ");
             int n = int.Parse(Console.ReadLine());
             int answer = 1;
             for (int i = 1; i <= n; i++)
