@@ -19,24 +19,21 @@ namespace QuickSort
 
         static int Partition(int[] a, int l, int r, int key)
         {
-
+            int middle = (l + r) / 2;
             while (l <= r)
             {
-                while (a[l] < key) l++;
+                while (a[l] < key ) l++;
 
                 while (a[r] > key) r--;
+
                 
-                if(l <= r)
-                {
-                     int tmp = a[l];
+                    int tmp = a[l];
 
-                     a[l] = a[r];
+                    a[l] = a[r];
 
-                     a[r] = tmp;
+                    a[r] = tmp;
 
-                     l++; r--;
-
-                }
+                    l++; r--;
                 
             }
 
@@ -45,9 +42,9 @@ namespace QuickSort
         
         static void Main(String[] args)
         {
-            int[] arr = { 2, 12, 933, 51, 8, 5, 3, 1, 6 ,553,23,213,67,87,2,1,34};
+            //int[] arr = { 1,3,4,2,6,8,1};
+            int[] arr = { 29, 40, 63, 54, 17,12,3,56,67,23,12,3,46,32,9 };
 
-            
             Console.WriteLine("mang chua sap xep");
 
             foreach (var a in arr)

@@ -5,12 +5,12 @@ namespace FootballManager
 {
     class Program
     {
+        static int choose;
+        List<DoiBong> doibongList = new List<DoiBong>();
         static void Main(string[] args)
         {
-            List<DoiBong> doibongList = new List<DoiBong>();
 
-
-            int choose;
+            Menu1 menu1 = new Menu1();
             do
             {
                 ShowMenu();
@@ -19,13 +19,7 @@ namespace FootballManager
                 switch (choose)
                 {
                     case 1:
-                        int choose1;
-                        do
-                        {
-                            Menu1();
-                            choose1 = int.Parse(Console.ReadLine());
-                            
-                        } while (choose1 != 4);
+                        menu1.Menu();
                         break;
                     case 2:
 
@@ -48,21 +42,16 @@ namespace FootballManager
 
         static void ShowMenu()
         {
-            Console.WriteLine("-----Chào mừng đến với V-League 2021-----");
-            Console.WriteLine("1. Quản lý danh sách đội bóng.");
-            Console.WriteLine("2. Quản lý lịch thi đấu.");
-            Console.WriteLine("3. Quản lý kết quả thi đấu.");
-            Console.WriteLine("4. Thống kê.");
-            Console.WriteLine("5. Thoát.");
+            Console.WriteLine("-----Chao mung den voi V-leage 2021-----");
+            Console.WriteLine("1. Quan ly danh sach doi bong.");
+            Console.WriteLine("2. Quan ly lich thi dau.");
+            Console.WriteLine("3. Quan ly ket qua thi dau.");
+            Console.WriteLine("4. Thong ke.");
+            Console.WriteLine("5. Thoat.");
             Console.WriteLine("Ban chon: ");
+     
         }
 
-        static void Menu1()
-        {
-            Console.WriteLine("1. Xem danh sach doi bong");
-            Console.WriteLine("2. cap nhat danh sach doi bong");
-            Console.WriteLine("3. Them mot doi bong moi");
-            Console.WriteLine("4. Tro ve menu chinh");
-        }
+     
     }
 }
