@@ -26,7 +26,8 @@ namespace QuickSort
 
                 while (a[r] > key) r--;
 
-                
+                if (l <= r)
+                {
                     int tmp = a[l];
 
                     a[l] = a[r];
@@ -34,6 +35,8 @@ namespace QuickSort
                     a[r] = tmp;
 
                     l++; r--;
+
+                }
                 
             }
 
