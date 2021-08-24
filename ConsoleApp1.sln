@@ -31,11 +31,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyHashTable", "MyHashTable\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab02", "Lab02\Lab02.csproj", "{D9740677-F5A6-411F-A22F-88FE279C2DF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_03", "Lab_03\Lab_03.csproj", "{E05BEC0B-C604-4F26-BEAF-19978A0F2628}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab_03", "Lab_03\Lab_03.csproj", "{E05BEC0B-C604-4F26-BEAF-19978A0F2628}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_04", "Lab_04\Lab_04.csproj", "{1C79128B-5B1A-4C86-B91A-DDB18A5102FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab_04", "Lab_04\Lab_04.csproj", "{1C79128B-5B1A-4C86-B91A-DDB18A5102FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Bank_Account", "1.Bank_Account\1.Bank_Account.csproj", "{6FD3A3CF-A3FF-491C-B5A3-7F7F14787E67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.Bank_Account", "1.Bank_Account\1.Bank_Account.csproj", "{6FD3A3CF-A3FF-491C-B5A3-7F7F14787E67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_05", "Lab_05\Lab_05.csproj", "{B697B01E-1105-47F9-B4C3-F3B9D4144CBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{6FD3A3CF-A3FF-491C-B5A3-7F7F14787E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FD3A3CF-A3FF-491C-B5A3-7F7F14787E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FD3A3CF-A3FF-491C-B5A3-7F7F14787E67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B697B01E-1105-47F9-B4C3-F3B9D4144CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B697B01E-1105-47F9-B4C3-F3B9D4144CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B697B01E-1105-47F9-B4C3-F3B9D4144CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B697B01E-1105-47F9-B4C3-F3B9D4144CBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
