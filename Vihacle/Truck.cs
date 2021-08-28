@@ -6,14 +6,14 @@ namespace Vihacle
 {
     class Truck : IVihacles
     {
-        int quantity;
+        float quantity;
         float lit = 1.5f;
         float distance, exist;
 
         public Truck() { }
         void IVihacles.display()
         {
-            exist = quantity - (distance * lit);
+            exist = (quantity * 0.95f) - (distance * lit);
             Console.WriteLine("consumption per km {0}" , distance * lit);
             if(exist <= 0)
             {
