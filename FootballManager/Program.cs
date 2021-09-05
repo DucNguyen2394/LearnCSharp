@@ -49,7 +49,6 @@ namespace FootballManager
             Console.WriteLine("4. Thong ke.");
             Console.WriteLine("5. Thoat.");
             Console.WriteLine("Ban chon: ");
-     
         }
 
      
