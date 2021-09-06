@@ -7,18 +7,18 @@ namespace QuestionManage
     class Question
     {
         string[] dapAn = new string[4];
-        string maCauHoi;
         string cauHoi;
+        float diem;
 
         string maDanhMuc { get; set; }
         public string MaCauHoi { get; set; }
         public string CauHoi { get; set; }
-        float diem { get; set; }
+        public float Diem { get; set; }
         public Question() { }
         public Question(string maDanhMuc, string maCauHoi, string cauHoi, float diem, string[] dapAn)
         {
             this.maDanhMuc = maDanhMuc;
-            this.maCauHoi = maCauHoi;
+            this.MaCauHoi = maCauHoi;
             this.cauHoi = cauHoi;
             this.diem = diem;
             this.dapAn = dapAn;
@@ -28,7 +28,7 @@ namespace QuestionManage
             Console.WriteLine("Nhap ma danh muc: ");
             maDanhMuc = Console.ReadLine();
             Console.WriteLine("Nhap ma cau hoi: ");
-            maCauHoi = Console.ReadLine();
+            MaCauHoi = Console.ReadLine();
             Console.WriteLine("Nhap cau hoi: ");
             cauHoi = Console.ReadLine();
             Console.WriteLine("Nhap diem: ");
@@ -45,7 +45,7 @@ namespace QuestionManage
         public void Display()
         {
             Console.WriteLine("Ma danh muc: {0}", maDanhMuc);
-            Console.WriteLine("Ma Cau hoi: {0}", maCauHoi);
+            Console.WriteLine("Ma Cau hoi: {0}", MaCauHoi);
             Console.WriteLine("Ten cau hoi: {0}", cauHoi);
             Console.WriteLine("Diem: {0}", diem);
             for (int i = 0; i < dapAn.Length; i++)

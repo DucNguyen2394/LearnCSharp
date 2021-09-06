@@ -1,14 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace QuestionManage
 {
     class Program
     {
-        static List<Question> questions = new List<Question>();
         static int choose;
         static void Main(string[] args)
+        {
+            Program program = new Program();
+            program.ShowMenu();
+        }
+
+        static void Menu()
+        {
+            Console.WriteLine("============Main Menu==============");
+            Console.WriteLine("1. Quan ly cau hoi/ tra loi ");
+            Console.WriteLine("2. Quan ly de thi ");
+            Console.WriteLine("3. Thoat");
+        }
+
+        public void ShowMenu()
         {
             MenuQuestion menuQuestion = new MenuQuestion();
             do
@@ -32,13 +44,7 @@ namespace QuestionManage
                 }
             } while (choose != 3);
         }
-
-        static void Menu()
-        {
-            Console.WriteLine("1. Quan ly cau hoi/ tra loi ");
-            Console.WriteLine("2. Quan ly de thi ");
-            Console.WriteLine("3. Thoat");
-        }
-
     }
+
 }
+

@@ -6,10 +6,11 @@ namespace QuestionManage
 {
     class MenuQuestion
     {
-        static List<Question> questions = new List<Question>();
+        List<Question> questions = new List<Question>();
         static int choose;
         public void MenuQuestions()
         {
+            Program program = new Program();
             do
             {
                 Menu();
@@ -26,7 +27,7 @@ namespace QuestionManage
                         Create();
                         break;
                     case 4:
-
+                        program.ShowMenu();
                         break;
                     default:
                         Console.WriteLine("Chon lai");
@@ -42,10 +43,10 @@ namespace QuestionManage
             Console.WriteLine("1. Xem danh sách");
             Console.WriteLine("2. Cập nhật câu hỏi");
             Console.WriteLine("3. Tạo mới một câu hỏi");
-            Console.WriteLine("0. Trờ về menu chính.");
+            Console.WriteLine("4. Trờ về menu chính.");
         }
 
-        static void Create()
+        public void Create()
         {
             String choose;
             while (true)
@@ -61,21 +62,25 @@ namespace QuestionManage
             }
         }
 
-        static void Edit()
+        public void Edit()
         {
-            Console.WriteLine("Nhap ma cau hoi: ");
-            string id = Console.ReadLine();
-            foreach(var item in questions)
+            Console.WriteLine("Nhap ma cau hoi can sua: ");
+            string Id = Console.ReadLine();
+            foreach (var item in questions)
             {
-                if (item.MaCauHoi.Equals(id))
+                if (item.MaCauHoi.Equals(Id))
                 {
                     item.Edit();
+                    break;
                 }
-                questions.Add(item);
+                else
+                {
+                    Console.WriteLine("ko tim thay cau hoi nao");
+                }
             }
         }
 
-        static void DisplayQuestion()
+        public void DisplayQuestion()
         {
             foreach (var item in questions)
             {
