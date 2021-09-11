@@ -6,35 +6,32 @@ namespace EXAM
 {
     class Store
     {
-        private string id;
-        private string name;
-        private float price;
+        public string Id { get; set; }
+        public string Name { get; set; }
+        public float Price { get; set; }
         public Store() { }
         public Store(string id, string name, float price)
         {
-            this.id = id;
-            this.name = name;
-            this.price = price;
+            this.Id = id;
+            this.Name = name;
+            this.Price = price;
         }
-        public string Id { get; set; }
-        public string Name { get; set; }
-        public string Price { get; set; }
 
         public void Input()
         {
             Console.WriteLine("Enter product Id : ");
-            id = Console.ReadLine();
+            Id = Console.ReadLine();
             Console.WriteLine("Enter product name : ");
-            name = Console.ReadLine();
+            Name = Console.ReadLine();
             Console.WriteLine("Enter product price : ");
-            price = float.Parse(Console.ReadLine());
+            Price = float.Parse(Console.ReadLine());
         }
 
         public void Display()
         {
-            Console.WriteLine("Product Id: {0}", id);
-            Console.WriteLine("Product name: {0}", name);
-            Console.WriteLine("Product price: {0}", price);
+            Console.WriteLine("Product Id: {0}", Id);
+            Console.WriteLine("Product name: {0}", Name);
+            Console.WriteLine("Product price: {0}", Price);
             Console.WriteLine("==================================");
         }
     }
