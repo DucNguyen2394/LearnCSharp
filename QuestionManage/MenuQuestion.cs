@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.IO;
+using System.Linq;
 
 namespace QuestionManage
 {
@@ -28,6 +30,9 @@ namespace QuestionManage
                         break;
                     case 4:
                         program.ShowMenu();
+                        break;
+                    case 5:
+                        saveFile(questions);
                         break;
                     default:
                         Console.WriteLine("Chon lai");
@@ -79,7 +84,6 @@ namespace QuestionManage
                 }
             }
         }
-
         public void DisplayQuestion()
         {
             foreach (var item in questions)
@@ -88,6 +92,18 @@ namespace QuestionManage
             }
         }
 
+        public void saveFile(List<Question> questions)
+        {
+            string path = @"E:\question.txt";
+
+            StreamWriter sw = new StreamWriter(path);
+
+            foreach(var item in questions)
+            {
+                sw.WriteLine(item.MaCauHoi , " " , item.CauHoi , " " , item.Diem);
+            }
+            sw.Close();
+        }
     }
 }
  
